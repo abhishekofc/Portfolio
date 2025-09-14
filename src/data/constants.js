@@ -182,7 +182,8 @@ export const projects = [
   date: "Mar 2025",
   description:
     "A full-stack SaaS-level EdTech platform integrating AI, secure payments, and cloud storage. Implemented AI-powered smart search using Gemini API for personalized course discovery. Secured user authentication with Firebase Authentication and Google Sign-In. Built student and educator dashboards for course/lecture management with a responsive UI. Added Razorpay payments for seamless enrollments and cloud media uploads using Multer & Cloudinary.",
-  image: "/LMS.png", // Replace with actual hosted screenshot if available
+  image: 
+  "/LMS.png", // Replace with actual hosted screenshot if available
   tags: [
     "React",
     "Node.js",
@@ -196,7 +197,7 @@ export const projects = [
   ],
   category: "web app",
   github: "https://github.com/abhishekofc/AI-Powered-LMS", // Replace with your repo link
-  webapp: "https://ai-powered-lms-1-6aan.onrender.com/" // Replace with actual deployed link
+  webapp: "https://ai-powered-lms-1-6aan.onrender.com" // Replace with actual deployed link
 },
 {
   id: 2,
@@ -204,8 +205,7 @@ export const projects = [
   date: "Feb 2025",
   description:
     "A full-stack MERN application offering real-time market data, trading functionalities, and portfolio tracking. Integrated core features such as order flow (buy/sell), watchlists, and holdings overview with secure authentication and interactive charts for technical analysis. Deployed and tested using ZEST.",
-  image:
-    "/TradeX.png", // Replace with actual hosted screenshot if available
+  image: "/Trade.png", // Replace with actual hosted screenshot if available
   tags: [
     "React",
     "Node.js",
