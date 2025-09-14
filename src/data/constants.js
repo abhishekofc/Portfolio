@@ -151,7 +151,7 @@ export const education = [
   school: "GLA University, Mathura",
   degree: "B.Tech in Computer Science and Engineering",
   date: "Sep 2022 – May 2026",
-  grade: "CGPA: 7.99 / 10",
+  grade: "CGPA: 8.0 / 10",
   desc: "Currently pursuing a Bachelor's degree in Computer Science and Engineering with a focus on software engineering, full-stack development, and machine learning. Completed core coursework in Data Structures, Algorithms, OOP, DBMS, and Web Technologies."
 },
 {
@@ -178,12 +178,34 @@ export const education = [
 export const projects = [
   {
   id: 1,
+  title: "AI-Powered LMS – Learning Management System",
+  date: "Mar 2025",
+  description:
+    "A full-stack SaaS-level EdTech platform integrating AI, secure payments, and cloud storage. Implemented AI-powered smart search using Gemini API for personalized course discovery. Secured user authentication with Firebase Authentication and Google Sign-In. Built student and educator dashboards for course/lecture management with a responsive UI. Added Razorpay payments for seamless enrollments and cloud media uploads using Multer & Cloudinary.",
+  image: "/lms.png", // Replace with actual hosted screenshot if available
+  tags: [
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Firebase",
+    "Gemini AI",
+    "Razorpay",
+    "Multer",
+    "Cloudinary"
+  ],
+  category: "web app",
+  github: "https://github.com/abhishekofc/AI-LMS", // Replace with your repo link
+  webapp: "https://your-live-demo-link.com" // Replace with actual deployed link
+},
+{
+  id: 2,
   title: "TradeX – Stock Trading Platform",
   date: "Feb 2025",
   description:
     "A full-stack MERN application offering real-time market data, trading functionalities, and portfolio tracking. Integrated core features such as order flow (buy/sell), watchlists, and holdings overview with secure authentication and interactive charts for technical analysis. Deployed and tested using ZEST.",
   image:
-    "https://raw.githubusercontent.com/abhishekofc/tradex-assets/main/preview.png", // Replace with actual hosted screenshot if available
+    "/tradeX.png", // Replace with actual hosted screenshot if available
   tags: [
     "React",
     "Node.js",
@@ -199,13 +221,13 @@ export const projects = [
   webapp: "", // Add deployed link if available
 },
 {
-  id: 2,
+  id: 3,
   title: "DisCuss – Discussion Forum Web App",
   date: "Aug 2024",
   description:
     "A MERN-based full-stack platform that supports real-time chat, community blogs, and threaded discussions. Includes a rich blog editor with image uploads, category-based filtering, live comments via WebSockets, and secure user profiles. Fully responsive and production-ready.",
   image:
-    "https://raw.githubusercontent.com/abhishekofc/discuss-assets/main/preview.png", // Replace with your actual screenshot
+    "/DisCuss.png", // Replace with your actual screenshot
   tags: [
     "React",
     "Node.js",
@@ -221,13 +243,13 @@ export const projects = [
   webapp: "https://discuss-xi.vercel.app"
 },
 {
-  id: 3,
+  id: 4,
   title: "DiagnoAI – Multiple Disease Prediction",
   date: "Mar 2024",
   description:
     "A machine learning model capable of predicting diabetes using key health metrics such as age, BMI, and glucose levels. Achieved 92% accuracy and built an interactive Streamlit-based UI for real-time predictions, empowering users to make proactive healthcare decisions.",
   image:
-    "https://raw.githubusercontent.com/abhishekofc/diagnoai-assets/main/preview.png", // Replace with actual image
+    "/Diagno.png", // Replace with actual image
   tags: [
     "Python",
     "Machine Learning",
